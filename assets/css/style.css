@@ -1,0 +1,116 @@
+html, body{
+  font-family: new Times roman; font-size: 1em !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.header_container {
+/*https://files.wallpaperpass.com/2019/10/food%20wallpaper%20131%20-%201920x1080.jpg */
+
+background:url('../images/background.png') !important;
+
+}
+.active_item{
+  background: darkkhaki;
+  color: black;
+}
+.app_title {
+  font-weight: bold;
+  width: fit-content;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 2px 2px 4px #000000;
+  box-shadow: 0 4px 8px 0 rgba(100, 120, 0, 0.7), 0 6px 20px 0 rgba(12, 180, 0, 0.19);
+  border-radius: 8px;
+  border: 5px solid white;
+}
+ .date_badge:hover {
+   box-shadow: 0 4px 8px 0 rgba(0, 255, 150, 0.7), 0 6px 20px 0 rgba(12, 180, 0, 0.19);
+ }
+
+ .date_badge_cont{
+   padding: 10px !important;
+   margin: 0px !important;
+   height: fit-content;
+ }
+.app_title:hover{
+     box-shadow: 0 4px 8px 0 rgba(0, 255, 150, 0.7), 0 6px 20px 0 rgba(12, 180, 0, 0.19);
+     position: relative;
+     top: -5px;
+     cursor: default;
+
+}
+
+    .attendance_table {
+  border: 5px solid #0e111138;
+  box-shadow: 0 4px 8px 0 rgb(30 35 38 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  }
+  .attendance_table td, th{
+    padding: 0.85vw;
+    text-align: center;
+    border-left: 2px solid #282a35a1;
+    border-bottom: 2px solid #282a35a1;
+    font-weight: bold;
+
+
+  }
+  .edit_row, .edit_fee{ position:absolute; right:0;width:5px;}
+
+  .attendance_table td input[type='checkbox']{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+  }
+  .date_picker_title {
+    box-shadow: 0 4px 8px 0 rgb(30 35 38 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+
+  }
+  .spent_card div.card-body {
+    padding: 0px;
+  }
+  .spent_card {
+    padding: 10px;
+    padding-left: 25px;
+
+  box-shadow: 0 4px 8px 0 rgb(30 35 38 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    border: 1px solid #0e111138;
+  }
+
+  .attendance_table th {
+    font-weight: bold;
+    padding: 1vw;
+
+  }
+  .attend_checkbox_container {
+    margin-left: auto;
+    width: fit-content;
+    text-align: center;
+    margin-right: auto;
+  }
+
+
+  @media only screen and (max-width: 299px) {
+   .attendance_table td, th {
+       padding: 0px !important;
+     }
+   .attendance_table th {
+    font-weight: bold;
+    padding: 0px !important;
+    font-size: 12px;
+
+    }
+   }
+
+   .previous_day_class, .next_day_class {
+     box-shadow: 0 4px 8px 0 rgb(30 35 38 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+   }
+   .previous_day_class:hover, .next_day_class:hover {
+     box-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px yellow;
+     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+   }
